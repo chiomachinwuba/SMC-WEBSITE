@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SANCTA MARIA COLLEGE</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+    <!--The Header starts here-->
+    <section class="header">
+<nav>
+    <a href="index.html"><img src="img/Logo3.jpg" alt="" srcset=""></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT US</a></li>
+            <li><a href="meet.html" class="current-page">ADMISSIONS</a></li>
+            <li><a href="notes.html">CONTACT US</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+</section>
+<!--The header ends here-->
+
+<!--Admission starts here-->
+<div class="container text-center" style="padding:4%;" id="category">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="cart">
+                <h1 style="text-align: left; color: #000074; font-family: 'Times New Roman', Times, serif;">ADMISSIONS</h1>
+                <p style="text-align: left;">Embark on an educational journey filled with innovation, inspiration and excellence
+                    as we declare that admission doors are open at SANCTA MARIA COLLEGE. We believe in a comprehensive approach
+                    to education where students are encouraged to explore their passions, engage in diverse experiences and embrace a culture of
+                    inclusivity and respect. </p>
+                    <p style="text-align: left;"> Join us in shaping tomorrow's leaders, innovators and visionaries. Step into a world of
+                        boundless opportunities, where academic excellence meets personal growth.</p>
+                        <p style="text-align: left;">Apply now and be a part of an educational odyssey that shapes not just careers but futures,where the journey to a brighter future begins.</h4>
+                        <p style="text-align: left;">Admission is open for entry into JSS1 only.</p>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="cart">
+                <img src="img/admission open.png" alt="" width="100%">
+            </div>
+        </div>
+    </div>
+        
+</div>
+<!--End of Admission-->
+
+<!--FAQs-->
+<div class="container text-center" style="padding:4%;" id="category">
+	<h1 style="color:#000074; font-family: 'Times New Roman', Times, serif;">FAQs</h1>
+	<div class="row">
+		<div class="col-lg-4">
+			<div class="card" style="padding:20px 40px 20px 40px;margin:20px;">
+                <h5>Does the School engage in any extra curricular activities?</h5> <br> <br>
+                <p style="line-height: 18px;">The school engages in Sports Activites every Friday</p>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="card" style="padding:20px 40px 20px 40px;margin:20px;">
+                <h5>What time does the school resume and close each day?</h5> <br> <br>
+                <p style="line-height: 18px;"> The School resumes by 7:30am and closes by 2:30pm</p>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="card" style="padding:20px 40px 20px 40px;margin:20px;">
+                <h5>What items are the students allowed to bring to school?</h5> <br> <br>
+                <p style="line-height: 18px;"> Students are allowed to bring School Books, Food and Snacks</p>
+			</div>
+		</div>
+	</div>
+		
+</div>
+<!--End of FAQs-->
+
+<!--How to Apply-->
+<div class="container text-center" style="padding:4%;" id="category">
+    <h1 style="color:#000074; font-family: 'Times New Roman', Times, serif;">HOW TO APPLY</h1>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="cart">
+                <form  action="mailto:sanctamariacollege@gmail.com" method="post">
+                    <input style="border-radius: 2em;border: 2px #000074 solid;padding: 10px 50px 10px 15px;" type="text" name="name" placeholder="Enter your First name" required><br><br>
+                    <input  style="border-radius: 2em;border: 2px #000074 solid;padding: 10px 50px 10px 15px;" type="text" name="name" placeholder="Enter your Last name" required><br><br>
+                    <input style="border-radius: 2em;border: 2px #000074 solid;padding: 10px 50px 10px 15px;" type="email" name="email" placeholder="Enter email address" required> <br><br>
+                    <input style="border-radius: 2em;border: 2px #000074 solid;padding: 10px 50px 10px 15px;" type="text" name="subject" placeholder="Enter your Phone number" required> <br><br>
+                    <input style="border-radius: 2em;border: 2px #000074 solid;padding: 10px 50px 10px 15px;" type="text" name="subject" placeholder="Enter your City" required> <br><br>
+                    <input style="border-radius: 2em;border: 2px #000074 solid;padding: 10px 50px 10px 15px;" type="text" name="subject" placeholder="Drop your Comments here..." required> <br><br>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+            </div>
+        </div>
+    </div>
+        
+</div>
+<!--End of Apply us-->
+
+<!--Footer starts here-->
+<footer>
+    <div class="fat">
+        <h4>Built by our team with <i class="fa fa-heart fa-1x"></i></h4>
+        <h4><a href="meet.html">FAQs</a></h4>
+        <h4><a href="notes.html">Contact Us</a></h4>
+        
+    </div>
+    <p class="copy">Copyright &copy; 2023 SANCTA MARIA COLLEGE.</p>
+  </footer>
+  <!-- Footer ends here-->
+
+  <!-- JS starts here-->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+<!-- JS ends here -->
+
+</body>
+</html>

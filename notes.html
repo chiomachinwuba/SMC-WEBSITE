@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SANCTA MARIA COLLEGE</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+    <!--The Header starts here-->
+    <section class="header">
+<nav>
+    <a href="index.html"><img src="img/Logo3.jpg" alt="" srcset=""></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT US</a></li>
+            <li><a href="meet.html">ADMISSIONS</a></li>
+            <li><a href="notes.html" class="current-page">CONTACT US</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+</section>
+
+<!--Contact us-->
+<div class="container text-center" style="padding:4%;" id="category">
+    <h1 style="color:#000074; font-family: 'Times New Roman', Times, serif;">CONTACT US</h1>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="cart">
+                <i style="font-size: 28px;color: #000074;margin: 10px;margin-right: 30px;" class="fa fa-home"></i>
+                    <span style="line-height: 2px;">
+                        <h5>Oke Oyinbo Road, Elesekan Bus-stop</h5>
+                        <p>Bogije, Ibeju-Lekki, Lagos State Nigeria</p>
+                    </span>
+                        
+                        
+                    <i style="font-size: 28px;color: #000074;margin: 10px;margin-right: 30px;" class="fa fa-phone"></i>
+                    <span style="line-height: 2px;">
+                        <h5>08037265586, 08037737641</h5>
+                        <p>Monday to Friday, 8am to 5pm</p>
+                    </span>
+                    <i style="font-size: 28px;color: #000074;margin: 10px;margin-right: 30px;" class="fa fa-envelope"></i>
+                    <span style="line-height: 2px;">
+                        <h5>sanctamariacollege@gmail.com</h5>
+                        <p>Send us an email</p>
+                    </span> <br>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="cart">
+                <form action="mailto:sanctamariacollege@gmail.com" method="post">
+                    <input style="border-radius: 2em;border: 2px #000074 solid;padding: 10px 50px 10px 15px;" type="text" name="name" placeholder="Enter your name" required><br><br>
+                    <input style="border-radius: 2em;border: 2px #000074 solid;padding: 10px 50px 10px 15px;" type="email" name="email" placeholder="Enter email address" required> <br><br>
+                    <input style="border-radius: 2em;border: 2px #000074 solid;padding: 10px 50px 10px 15px;" type="text" name="subject" placeholder="Enter your subject" required> <br><br>
+                    <textarea  cols="30" rows="8" name="message" placeholder="Write your messages here..." style="padding: 10px;" required></textarea><br><br>
+                    <!--<a href="" class="btn btn-primary">Send Message</a>-->
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+        
+</div>
+<!--End of Contact us-->
+
+
+    <!--Footer starts here-->
+<footer>
+    <div class="fat">
+        <h4>Built by our team with <i class="fa fa-heart fa-1x"></i></h4>
+        <h4><a href="meet.html">FAQs</a></h4>
+        <h4><a href="notes.html">Contact Us</a></h4>
+        
+    </div>
+    <p class="copy">Copyright &copy; 2023 SANCTA MARIA COLLEGE.</p>
+  </footer>
+  <!-- Footer ends here-->
+    <!-- JS starts here-->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+<!-- JS ends here -->
+</body>
+</html>
+    
